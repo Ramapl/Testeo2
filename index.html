@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulación de Phishing</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8d7da;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            color: #721c24;
+        }
+        .message-container {
+            background-color: #ffffff;
+            border: 1px solid #f5c6cb;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .message-container h1 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+        .message-container p {
+            font-size: 1.1em;
+            margin-bottom: 20px;
+        }
+        .message-container button {
+            padding: 10px 20px;
+            background-color: #d9534f;
+            color: #ffffff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .message-container button:hover {
+            background-color: #c9302c;
+        }
+    </style>
+</head>
+<body>
+    <div class="message-container">
+        <h1>¡Has sido parte de una simulación de phishing!</h1>
+        <p>Esta era una prueba para evaluar tu capacidad de identificar y reportar posibles intentos de phishing.</p>
+        <p><strong>Has fallado</strong> porque ingresaste tus datos sin verificar previamente la autenticidad de la página con tu supervisor.</p>
+        <p>Recuerda: Siempre debes verificar cualquier solicitud inusual o sospechosa antes de proporcionar información confidencial.</p>
+        <button onclick="window.location.href='https://example.com/learn-more'">Aprender más sobre phishing</button>
+    </div>
+</body>
+</html>
